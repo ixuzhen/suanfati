@@ -1,0 +1,6 @@
+*.png
+*.jpg
+*.db
+.idea/
+*.pc
+*.class
