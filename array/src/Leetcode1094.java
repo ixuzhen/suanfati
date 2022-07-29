@@ -77,7 +77,8 @@ public class Leetcode1094 {
     }
 
     public static void sort_arrays(int[][] sort_start, int[][] sort_end){
-        Comparator<int[]> comparator_start = new Comparator<>() {
+        Comparator<int[]> comparator_start = new Comparator<int[]>() {
+
             @Override
             public int compare(int[] t1, int[] t2) {
                 return t1[1]-t2[1];
